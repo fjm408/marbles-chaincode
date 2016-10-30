@@ -73,7 +73,7 @@ func main() {
 // ============================================================================================================================
 // Init - reset all the things
 // ============================================================================================================================
-func (t *SimpleChaincode) init(stub *shim.ChaincodeStub, args []string) ([]byte, error) {
+func (t *SimpleChaincode) init(stub *shim.ChaincodeStubInterface, args []string) ([]byte, error) {
 	var Aval int
 	var err error
 
